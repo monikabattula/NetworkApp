@@ -9,7 +9,6 @@ Paramiko is a **Python SSH library** for **secure connections** to devices, allo
 - **More control over SSH sessions** than Netmiko.
 - Useful for **file transfers, running scripts, and handling SSH keys**.
 - Ideal for **non-networking devices (e.g., Linux servers, IoT devices, firewalls).**
-![Screenshot 2025-04-28 at 4.08.08 PM.png](attachment:0fdf2a58-5cdc-47bb-8b2f-91262905564c:Screenshot_2025-04-28_at_4.08.08_PM.png)
 The planning of the application:
 
 left side of the 3text files needed for our application:
@@ -39,7 +38,6 @@ SSH_connection.py→that performs several importcant tasks for our program:
 → first, it checks if the other two text files, meaning the one holding the username and password and one containing the commands to send are vaild and exist on the local file system or it trhoughs customised errors
 
 create_threads.py → will create a thread for each device and perform the SSH connection command sending and output handling for all the devices simultanerously.
-![image.png](attachment:8ecf7570-eebb-43a0-8b6f-7feb1f1bf393:image.png)
 The file created having
 
 10.10.10.2
